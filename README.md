@@ -13,7 +13,7 @@ You can view the website [here](https://abdullahjr0.github.io/MS1/)
 
 # Table of contents
 1. [UX](#ux) <a name="UX"></a>
-    * 1.1. [User Goals](#user-goals)
+    * 1.1. [Visitor Goals](#visitor-goals)
     * 1.2. [Design](#design)
     * 1.3. [Wireframes](#wireframes)
 2. [Features](#features)
@@ -28,24 +28,26 @@ You can view the website [here](https://abdullahjr0.github.io/MS1/)
 <a name="ux"></a>
 # 1. UX
 
-As an avid gym member, I wanted to create a website that allowed me to use my passion as a tool to help others achieve their fitness goals
+As a Manchester United fan, I wanted to create a simple yet fun to play memory game using fan favourite Club legends and present players.
 
-This website is immediately apparent to users from first glance, allowing them to navigate with ease and find the most suitable services to sign up to.
+It has been made responsive for all devices, meaning it can be used everywhere even on the go. If they are indoors on a PC or outside on their phones they can enjoy this easy to play brain training game.
 
 
 
 ### Project Goals
 
-The goal of this website is to provide training services to help users to acheive their fitness goals, as well as increasing brand credibility.
+The goal of this website is to provide a fun simple and immersive memory game. To allow enjoyment whilst strenghtening the mind.
+<a name="visitor-goals"></a>
 
-<a name="user-goals"></a>
-
-## 1.1. User goals:
+## 1.1. Visitor Goals:
 * __First time visitor goals__
-    * As a first time visitor, I want to immediately understand what the website is about.
-    * As a first time visitor, I want to be able to easily navigate and interact with the website.
-    * As a first time visitor, I want to be able to view the website on several devices.
-    * As a first time visitor, I want to feel comfortable that AJRF is providing the best services .
+    * As a first time visitor, I want to immediately understand what the game is about.
+    * As a first time visitor, I want to be able to easily navigate and interact with the game.
+    * As a first time visitor, I want to be able to understand how the game is played.
+    * As a first time visitor, I want to be able to play on different tiers, to avoid repition.
+    * As a first time visitor, I want to be able to see how much time I have left.
+    * As a first time visitor, I want to be able to see how many times I have flipped the card.
+    * As a first time visitor, I want to be able to follow social media handles to recieve updates and view other games.
 
 
 
