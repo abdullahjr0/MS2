@@ -4,7 +4,7 @@
 
 Welcome to my second project. This website is a Memory game based on Mancheter United players, past and present.
 
-You can view the website [here](https://abdullahjr0.github.io/MS1/)
+You can view the website [here](https://abdullahjr0.github.io/MS2/)
 
 ![Am-I-responsive](https://user-images.githubusercontent.com/79915855/120698231-abbf7a80-c4a6-11eb-8c8f-eacb635817c8.jpg)
 
@@ -167,17 +167,6 @@ Testing information can be found [here](https://github.com/abdullahjr0/MS1/blob/
 [Go to the top](#UX) <a name="UX"></a>
 
 There were a few elements that were changed, repositioned or added from my original wireframes as they were more appropriate for the user.
-
-#### All pages
-* I added a Youtube link as I had provided a youtube video on the landing page. Allows the user to do further research on what the website is about.
-
-#### Landing page
-* The original wireframe was missing something which would engage users. I embedded a youtube video to allow the user to feel enticed and reduce the attention from the text. The video is appropriate and fits the page perfectly.
-
-#### Contact page
-* The original wireframes did not include any location or instant contact for the user, which could lead to confusion and hassle. To avoid this I embedded google maps with a pinpoint which provided users with the location and the map allows them to see any local POI's.
-* A phone number is placed at the bottom of the map if the user is interested in instant communication.
-* Contact content remained the same but I added a hover animation over each box to avoid user confusion when filling out and also make it visually pleasing.
 
 #### Future Implements
 * Create a weekly newsletter where users can sign up to, to view any news or updates about the website.
