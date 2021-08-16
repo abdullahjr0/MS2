@@ -6,7 +6,6 @@ Welcome to my second project. This website is a Memory game based on Mancheter U
 
 You can view the website [here](https://abdullahjr0.github.io/MS2/)
 
-![Am-I-responsive](https://user-images.githubusercontent.com/79915855/120698231-abbf7a80-c4a6-11eb-8c8f-eacb635817c8.jpg)
 
 
 
