@@ -13,7 +13,7 @@ You can view the website [here](https://abdullahjr0.github.io/MS1/)
 
 # Table of contents
 1. [UX](#ux) <a name="UX"></a>
-    * 1.1. [Visitor Goals](#visitor-goals)
+    * 1.1. [Goals](#goals)
     * 1.2. [Design](#design)
     * 1.3. [Wireframes](#wireframes)
 2. [Features](#features)
@@ -37,10 +37,10 @@ It has been made responsive for all devices, meaning it can be used everywhere e
 ### Project Goals
 
 The goal of this website is to provide a fun simple and immersive memory game. To allow enjoyment whilst strenghtening the mind.
-<a name="visitor-goals"></a>
+<a name="goals"></a>
 
-## 1.1. Visitor Goals:
-* __First time visitor goals__
+## 1.1. Goals Goals:
+* __Visitor goals__
     * As a first time visitor, I want to immediately understand what the game is about.
     * As a first time visitor, I want to be able to easily navigate and interact with the game.
     * As a first time visitor, I want to be able to understand how the game is played.
