@@ -39,7 +39,7 @@ It has been made responsive for all devices, meaning it can be used everywhere e
 The goal of this website is to provide a fun simple and immersive memory game. To allow enjoyment whilst strenghtening the mind.
 <a name="goals"></a>
 
-## 1.1. Goals Goals:
+## 1.1. Goals:
 * __Visitor goals__
     * As a first time visitor, I want to immediately understand what the game is about.
     * As a first time visitor, I want to be able to easily navigate and interact with the game.
@@ -51,18 +51,19 @@ The goal of this website is to provide a fun simple and immersive memory game. T
 
 
 
-* __Potential Customer__
-    * As a potential customer, I want to be able to see what others think of AJR Fitness.
-    * As a potential customer, I want to be able to book a class, view times and/or make an enquiry.
-    * As a potential customer, I want to be able to follow AJRF on social media.
-    * As a potential customer, I want to be able to know the location of the classes and if I can directly contact them via telephone.
+* __Developer Goals__
+    * As a developer, I want the cards to be able to reshuffle on command.
+    * As a developer, I want the cards to be shuffled at the end of every game.
+    * As a developer, I want the user to see a "Champions" pop up when successfully completing the game.
+    * As a developer, I want the user to be able to see how much time is left.
+    * As a developer, I want the user to know how many flips they have taken.
 
 * __User expectations__
  
     * The website content should be clear and provide unambiguous information.
-    * It should immediately be evident to the user what the website is offering.
+    * It should immediately be evident to the user what the game is offering.
     * User interface is easy to navigate.
-    * Have the ability to contact the company via email, telephone or physically showing up.
+    * Have the ability to follow the game on social media.
     * Responsive design across all devices.
     * The website should allow for a satisfied UX.
 
@@ -72,15 +73,16 @@ The goal of this website is to provide a fun simple and immersive memory game. T
 
 
 ### __Typography__
-* The Poppins font is the primary font used throughout the whole website. Sans Serif is the fallback font in case the primary font is not displayed correctly. Poppins is a sleek font that is used in Graphic design, providing an aesthetically pleasing experience for the user.
-
+* The font that is used is the 
 
 ### __Images__
-* All images are directly from Adobe stock which provides high-quality resolution. 
+* All images are high-quality resolution from Google images. 
+* The images depend on what the user is viewing on the screen. If the user is at the main menu a Stadium is shown, if the user has lost the game the dressing room is shown etc.
+This is to allow the immersive feeling for the user.
 
 
 ### __Colours Scheme__
-* The two main colours used are very dark grey (almost black) and white consistently throughout the website, including consistent image colour schemes.
+* The four main Colours that are used are Red, White, Yellow and black. These are consistent colours with the Manchester United branding.
 
 <a name="wireframes"></a>
 
@@ -93,7 +95,7 @@ The goal of this website is to provide a fun simple and immersive memory game. T
 # 2.  Features
 [Go to the top](#UX) <a name="UX"></a>
 
-### All Web pages
+### Main Page
 
 *   Every page has a logo on the top left which is apparent to the user which website they are browsing. The logo can be clicked to easily navigate back to the home page. 
 On the top right, there is a nav bar that allows for efficient navigation through the website, they maintain a hover effect which increase UX. The current page being browsed is also highlighted in a dark grey so the user understands which page they are viewing. 
@@ -101,24 +103,23 @@ On the top right, there is a nav bar that allows for efficient navigation throug
 * Cover text allows contrast and increases aesthetics allowing satisfied UX, also demonstrates page they are on. 
 * Social media icons have been placed on the bottom of the pages inside the footer. These icons include Instagram, Facebook, Youtube and Twitter. Once clicked they open up a new tab supporting user behaviour and usability.
 
-####  Landing Page
+####  About Pop-up
 
 * Below the hero image is a summary that engages the user with anecdotal language and providing brief information about services available.
 * Three buttons are placed below the summary paragraph which allows the user to easily navigate to the Services page where it offers more information about each service, providing functionality and usability.
 
-#### About Us Page
-
+#### Help Pop-up
 *  A summary about AJR Fitness.
 *  Improving UX with a testimonials section of three different happy customers and their stories and an added picture.
 
-####  Services Page
+####  Tiers
 
 * This page can be reached through the Navbar or from the service buttons shown on the landing page.
 * Provides three different service options and a brief description to fit the picture.
 * The images allow a flipping animation which provides information of times available as referenced in home page as well as adding visual to UI and improving UX.
 * Book now button which upon click navigates the user to the contact page allowing quick and efficient UX. Also includes hover effect where text colour changes to improve aesthetics.
 
-####  Contact Page
+####  Social Media handles
 
 * A contact form to allow users to contact AJRF if they have an enquiry.
 * Single column layout in intuitive order to allow efficient UX.
@@ -132,6 +133,8 @@ On the top right, there is a nav bar that allows for efficient navigation throug
     * The project uses HyperText Markup Language.
 * CSS3
     * The project uses Cascading Style Sheets.
+* JavaScript
+    * The project uses JavaScript.
 * [Balsamiq](https://balsamiq.com/)
     * Used to create the wireframes during the initial design process.
 * [Github](https://github.com/)
@@ -148,6 +151,7 @@ On the top right, there is a nav bar that allows for efficient navigation throug
 Testing information can be found [here](https://github.com/abdullahjr0/MS1/blob/master/testing.md)
 
 <a name="bugs-discovered"></a>
+
 # 5. Bugs Discovered
 [Go to the top](#UX) <a name="UX"></a>
 
@@ -208,21 +212,15 @@ __Run project locally and clone the project using Gitpod:__
 
 Please view below snapshots of the end product.
 
-__Home Page__
-![home-snapshot](https://user-images.githubusercontent.com/79915855/120858957-72a50a00-c57b-11eb-868d-0ff73b75bb14.jpg)
-![home2-snapshot](https://user-images.githubusercontent.com/79915855/120858956-72a50a00-c57b-11eb-8f7d-ec90a2150742.jpg)
+__Main Page__
 
-__About Us Page__
-![about-us-snapshot](https://user-images.githubusercontent.com/79915855/120858952-7173dd00-c57b-11eb-9bf0-365fb1cf2242.jpg)
-![testimonial-snapshot](https://user-images.githubusercontent.com/79915855/120858962-733da080-c57b-11eb-8f75-8fb494b35ad0.jpg)
+__About Us Pop-up__
 
-__Services Page__
-![services-snapshot](https://user-images.githubusercontent.com/79915855/120858961-733da080-c57b-11eb-9593-ac25743aba6a.jpg)
-![services1snapshot](https://user-images.githubusercontent.com/79915855/120858959-72a50a00-c57b-11eb-867e-b45d0391f344.jpg)
 
-__Contact Page__
-![contact-snapshot](https://user-images.githubusercontent.com/79915855/120858955-720c7380-c57b-11eb-8d3b-644cf88a85e9.jpg)
-![contact1-snapshot](https://user-images.githubusercontent.com/79915855/120858954-720c7380-c57b-11eb-9477-1199f669e156.jpg)
+__Help Pop-up__
+
+__The Game__
+
 
 
 
@@ -230,11 +228,5 @@ __Contact Page__
 [Go to the top](#UX) <a name="UX"></a>
 
 * __Content__
-    * Website was inspired by [Ronan Personal Training](https://www.ronanpersonaltraining.com/)
-    * All hero, testimonial and service images are taken from [Adobe Stock](https://stock.adobe.com/uk/) 
-    * Text is copied and edited from [Ronan Personal Training](https://www.ronanpersonaltraining.com/) and [Ten Health and Fitness](https://www.ten.co.uk/)
 
-*   __Code__
-    * Flip card animation was taken from [W3Schools](https://www.w3schools.com/howto/howto_css_flip_card.asp)
-    * The header on all pages was inspired by [Divinector](https://www.youtube.com/watch?v=BkbkUtrLkls) on Youtube and some of the code was copied and edited.
-    * The embedded Youtube video was taken from [Trusty Spotter](https://www.youtube.com/watch?v=VGHI9j-zR8k)
+* Read me file content was taking from my previous personal MS1 e.g the deoplyoment cycle content.
