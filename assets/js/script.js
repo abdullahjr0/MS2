@@ -74,3 +74,28 @@ function reset() {
     secondCard = this;
     checkForMatch();
   }
+
+  function checkForMatch() {
+    let isMatch = firstCard.dataset.name === secondCard.dataset.name;
+  
+    isMatch ? disableCards() : unflipCards();
+  }
+  
+  function disableCards() {
+    disply = true;
+    setTimeout(() => {
+      firstCard.style.visibility = "hidden";
+      secondCard.style.visibility = "hidden";
+    }, 1500);
+  
+    number++;
+  
+    if (number === 6) {
+      clock = false;
+      overlay2.style.visibility = "visible";
+    }
+    setTimeout(() => {
+      disply = false;
+      resetBoard();
+    }, 1600);
+  }
