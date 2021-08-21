@@ -26,3 +26,20 @@ setInterval(() => {
     }
   }
 }, 1000);
+
+
+function reset() {
+    timer = 60;
+    timers.innerHTML = 60;
+    click = 0;
+    time.textContent = click;
+    cards.forEach((card) => {
+      if (card.classList.contains("flip")) {
+        card.classList.remove("flip");
+        time.textContent = "0";
+        let randomPos = Math.floor(Math.random() * 12);
+        card.style.order = randomPos;
+        card.style.visibility = "visible";
+      }
+    });
+  }
