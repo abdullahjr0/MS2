@@ -43,3 +43,15 @@ function reset() {
       }
     });
   }
+
+  play.addEventListener("click", function () {
+    overlay.style.visibility = "hidden";
+    resetBoard();
+    reset();
+  });
+  play2.addEventListener("click", function () {
+    overlay2.style.visibility = "hidden";
+    resetBoard();
+    reset();
+    clock = true;
+  });
