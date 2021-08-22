@@ -175,6 +175,27 @@
   text-transform: capitalize;
 }
 
+.wrapper .upper_part img {
+  width: 2rem;
+  cursor: pointer;
+  -webkit-transform: tranform 0.3s;
+          transform: tranform 0.3s;
+}
+
+.wrapper .upper_part .hover:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.wrapper .upper_part .last_image {
+  margin-left: 1rem;
+}
+
+.wrapper .upper_part .last_image img {
+  width: 1.5rem;
+}
+
+
 .hide {
   visibility: hidden;
   background-image: url("../images/back.jpeg");
