@@ -113,18 +113,17 @@ This is to allow the immersive feeling for the user.
 * back button takes user to home page. easy navigation
 
 ####  Tiers
+* This Pop up includes three different tiers, amateur, semi pro and professional
+* Different tiers allows the user to have some autonomy over difficulty
+* Tiers avoid repition 
+* Buttons take user to own specific pages with different times
+* back to main menu button allows for easy navigation
 
-* This page can be reached through the Navbar or from the service buttons shown on the landing page.
-* Provides three different service options and a brief description to fit the picture.
-* The images allow a flipping animation which provides information of times available as referenced in home page as well as adding visual to UI and improving UX.
-* Book now button which upon click navigates the user to the contact page allowing quick and efficient UX. Also includes hover effect where text colour changes to improve aesthetics.
 
 ####  Social Media handles
 
-* A contact form to allow users to contact AJRF if they have an enquiry.
-* Single column layout in intuitive order to allow efficient UX.
-* Dropdown section under 'Subject' to allow users to specify their message.
-* Hover effect applied on the form to allow the user to understand which part of the form they are completing.
+* Social media links placed on top right of page
+* allows user to visit social media handles and follow page
 <a name="technologies-used"></a>
 
 #  3. Technologies used 
@@ -148,7 +147,7 @@ This is to allow the immersive feeling for the user.
 # 4. Testing
 [Go to the top](#UX) <a name="UX"></a>
 
-Testing information can be found [here](https://github.com/abdullahjr0/MS1/blob/master/testing.md)
+Testing information can be found [here](https://github.com/abdullahjr0/MS2/blob/master/testing.md)
 
 <a name="bugs-discovered"></a>
 
