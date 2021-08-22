@@ -380,3 +380,11 @@ z-index: 20;
     margin-left: 0.2rem;
   }
 }
+
+@media (max-width: 768px) {
+  .memory-game {
+    height: 100%;
+    width: calc(100% - 50px);
+    margin-left: 0.2rem;
+  }
+}
