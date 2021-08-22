@@ -96,20 +96,21 @@ This is to allow the immersive feeling for the user.
 
 ### Main Page
 
-*   Every page has a logo on the top left which is apparent to the user which website they are browsing. The logo can be clicked to easily navigate back to the home page. 
-On the top right, there is a nav bar that allows for efficient navigation through the website, they maintain a hover effect which increase UX. The current page being browsed is also highlighted in a dark grey so the user understands which page they are viewing. 
-* Appropriate high-quality hero images that allow the user to instantly understand what the website is portraying. 
-* Cover text allows contrast and increases aesthetics allowing satisfied UX, also demonstrates page they are on. 
-* Social media icons have been placed on the bottom of the pages inside the footer. These icons include Instagram, Facebook, Youtube and Twitter. Once clicked they open up a new tab supporting user behaviour and usability.
+* Appropriate high-quality background image that allow the user to feel immersion whilst playing.
+* Three buttons, include kick off, about and help button in the traditional Manchester colors, red and white.
+* Bold white title text to display the purpose of the game and to allow contrast with background for aesthetic purpose
+* Social media icons have been placed on the top right of the. These icons include Instagram, Facebook and Twitter. Once clicked they open up a new tab supporting user behaviour and usability.
 
 ####  About Pop-up
 
-* Below the hero image is a summary that engages the user with anecdotal language and providing brief information about services available.
-* Three buttons are placed below the summary paragraph which allows the user to easily navigate to the Services page where it offers more information about each service, providing functionality and usability.
+* Includes a brief description about the page to allow the user to understand the motivation behind the game and to also visit other potential games by MUFC
+* Background changes to in game MUFC to allow immersion.
+* okay button takes user back to home page easy navigation.
 
 #### Help Pop-up
-*  A summary about AJR Fitness.
-*  Improving UX with a testimonials section of three different happy customers and their stories and an added picture.
+* Instructions on how to play including minute images of in game buttons.
+* Background changes to MUFC dressing room to allow immersion.
+* back button takes user to home page. easy navigation
 
 ####  Tiers
 
