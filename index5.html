@@ -8,22 +8,18 @@
   </head>
   <body>
     <style>
-      @font-face {
-        font-family: sans;
-        src: url(./font/Stone\ Sans\ Bold.woff);
-      }
       * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
       }
       body {
-        font-family: sans;
+        font-family: "Poppins", sans-serif;
       }
       .stadium {
         width: 100%;
         height: 100vh;
-        background-image: url(./images/homeback.jpg);
+        background-image: url(./assets/images/manchester-united-stadium-4k-soccer-empty-stadium-old-trafford.jpg);
         background-position: center;
         background-size: cover;
         display: flex;
@@ -35,7 +31,8 @@
         max-width: 700px;
         height: 600px;
         background-color: rgba(218, 203, 203, 0.781);
-        border: 4px solid black;
+        border: 2px solid black;
+        border-radius: 25px;
         text-align: center;
         color: black;
         position: relative;
@@ -43,6 +40,7 @@
       h2 {
         font-size: 4rem;
         margin-top: 3rem;
+        font-family: "Poppins", sans-serif;
       }
       .content {
         margin-top: 3rem;
@@ -70,7 +68,7 @@
         background-color: white;
         font-size: 1rem;
         text-transform: capitalize;
-        font-family: sans;
+        font-family: "Poppins", sans-serif;
         box-shadow: 2px 3px 4px rgba(0, 0, 0, 1);
         cursor: pointer;
         border: none;
@@ -78,6 +76,7 @@
       @media (max-width: 768px) {
         h2 {
           font-size: 2rem;
+          
         }
         .stadium {
           padding: 2rem;
@@ -100,9 +99,9 @@
           <h2>Choose your tier</h2>
         </div>
         <div class="content">
-          <a class="buttons" href="index6.html"> amateur</a>
-          <a class="buttons" href="index7.html"> semi pro</a>
-          <a class="buttons" href="index8.html">professional</a>
+          <a class="buttons" href="index6.html"> Amateur</a>
+          <a class="buttons" href="index7.html"> Semi-pro</a>
+          <a class="buttons" href="index8.html">Professional</a>
         </div>
         <div>
           <a type="button" class="button" href="index.html"
