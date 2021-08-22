@@ -155,11 +155,11 @@ Testing information can be found [here](https://github.com/abdullahjr0/MS2/blob/
 # 5. Bugs Discovered
 [Go to the top](#UX) <a name="UX"></a>
 
-* Initially the buttons on the home page did not take me directly to the specific headings on the Service page. This was fixed by putting each service heading in a div and assigning it an id. And the buttons on the home page wrapped in an anchor tag with a href and the assigned id. This improved UX.
-* On the contact page, when hovering over individual boxes they would disappear. This was fixed by making the box red when I hovered over it. Avoiding confusion and satisfied UX
-* On the services page, the times are at the back of the images, this is important information and instead should be placed beside the image, in turn, being swapped with the piece of text. 
-* The images on the services page have a flip card animation. After the effect takes place the image size is distorted, changing its width and height. This was left unchanged due to lack of time.
-* There is a spacing issue on the services page which has been left unchanged due to lack of time.
+* Initially the buttons on the home page did not take me to the specific tiered game. This was fixed by assigning it to the correct index page
+* The in-game was not responsive on mobile. This was fixed using CSS.
+* The image code had parse error, this was fixed by renaming each image. 
+* The timer was incorrect for Amateur game, this was fixed by changing the JS code.
+* The tiered game had the incorrect time limit for its designated tier, this was fixed by reassigning it to correct js code.
 
 <a name="deployment-cycle"></a>
 
