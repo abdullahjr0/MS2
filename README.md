@@ -166,10 +166,12 @@ Testing information can be found [here](https://github.com/abdullahjr0/MS2/blob/
 # 6. Deployment Cycle
 [Go to the top](#UX) <a name="UX"></a>
 
-There were a few elements that were changed, repositioned or added from my original wireframes as they were more appropriate for the user.
+There were a few elements that were changed, repositioned or added from my original wireframes as they were more appropriate for the user i.e social media handles.
 
 #### Future Implements
-* Create a weekly newsletter where users can sign up to, to view any news or updates about the website.
+* add more cards for the different tiers,
+* add more time for each card matched.
+* minus time for every wrong card matched.
 <a name="deployment"></a>
 
 # 7. Deployment
@@ -202,13 +204,23 @@ __Run project locally and clone the project using Gitpod:__
 Please view below snapshots of the end product.
 
 __Main Page__
+![MAIN-PAGE](https://user-images.githubusercontent.com/79915855/130340806-fa2a49ae-3ab2-4fb9-8d0c-f0169b3a8527.jpg)
 
-__About Us Pop-up__
+__Choose tierp__
+![choosetier](https://user-images.githubusercontent.com/79915855/130340845-53602eba-8f51-4223-b37c-45da91da91f7.jpg)
 
 
 __Help Pop-up__
+![htp](https://user-images.githubusercontent.com/79915855/130340848-ced7f385-876b-4ad3-b7fc-4e2b5dd25ac5.jpg)
+
+
+__About Pop-up__
+![about2](https://user-images.githubusercontent.com/79915855/130340847-0925d90a-8be1-4b07-b726-1fd4b6170a64.jpg)
 
 __The Game__
+![the-game](https://user-images.githubusercontent.com/79915855/130340859-1274045b-3433-439d-8e9e-aca70deca437.jpg)
+![thegame2](https://user-images.githubusercontent.com/79915855/130340902-bc31f7c8-4f84-4673-929e-4a4247351872.jpg)
+![thegame3](https://user-images.githubusercontent.com/79915855/130340903-4624863b-783a-4005-9088-cb2dcc026199.jpg)
 
 
 
@@ -219,3 +231,7 @@ __The Game__
 * __Content__
 
 * Read me file content was taking from my previous personal MS1 e.g the deoplyoment cycle content.
+
+* __Images__
+
+* Taken from google images or pixabay
