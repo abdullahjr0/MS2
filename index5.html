@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      @font-face {
+        font-family: sans;
+        src: url(./font/Stone\ Sans\ Bold.woff);
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: sans;
+      }
+      .stadium {
+        width: 100%;
+        height: 100vh;
+        background-image: url(./images/homeback.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        width: 100%;
+        max-width: 700px;
+        height: 600px;
+        background-color: rgba(218, 203, 203, 0.781);
+        border: 4px solid black;
+        text-align: center;
+        color: black;
+        position: relative;
+      }
+      h2 {
+        font-size: 4rem;
+        margin-top: 3rem;
+      }
+      .content {
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        padding: 1rem 1.3rem;
+        background-color: white;
+        width: 30%;
+        margin: 0.5rem 0;
+        border: 3px solid black;
+        text-transform: capitalize;
+        cursor: pointer;
+      }
+      .button {
+        position: absolute;
+        bottom: 1.3rem;
+        right: 1rem;
+        padding: 1rem 1.5rem;
+        background-color: white;
+        font-size: 1rem;
+        text-transform: capitalize;
+        font-family: sans;
+        box-shadow: 2px 3px 4px rgba(0, 0, 0, 1);
+        cursor: pointer;
+        border: none;
+      }
+      @media (max-width: 768px) {
+        h2 {
+          font-size: 2rem;
+        }
+        .stadium {
+          padding: 2rem;
+        }
+        .container {
+          height: 523px;
+        }
+        a {
+          width: 50%;
+        }
+        .button {
+          font-size: 1rem;
+          padding: 0.5rem 1rem;
+        }
+      }
+    </style>
+    <div class="stadium">
+      <div class="container">
+        <div class="game-title">
+          <h2>Choose your tier</h2>
+        </div>
+        <div class="content">
+          <a class="buttons" href="index6.html"> amateur</a>
+          <a class="buttons" href="index7.html"> semi pro</a>
+          <a class="buttons" href="index8.html">professional</a>
+        </div>
+        <div>
+          <a type="button" class="button" href="index.html"
+            >back to main menu</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
