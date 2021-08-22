@@ -162,3 +162,19 @@
   color: yellow;
   text-transform: capitalize;
 }
+
+.hide {
+  visibility: hidden;
+  background-image: url("../images/back.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hide2 {
+  visibility: hidden;
+  background-image: url("../images/back2.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
