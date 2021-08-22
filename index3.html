@@ -1,101 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <meta content="A MUFC memory game" name="description">
-    <meta content=" memory, game, football, MUFC, english" name="keywords">
-    <title>MUFC Memory Game</title>
-</head>
-
+    <title>Card Game</title>
+  </head>
   <body>
+    
+    <!--rematch overlay-->
     <div class="overlay hide">
       <div class="content">
         <img src="./assets/images/red-whistle.jpg" alt="">
-        <h1>Full Time</h1>
-        <button class="play">Rematch ?</button>
+        <h1>Unlucky</h1>
+        <h2>Come on you Reds!</h2>
+        <button class="play">Rematch?</button>
       </div>
-     
     </div>
+
+    <!--Champions overlay-->
     <div class="overlay hide2">
       <div class="content">
         <img src="./assets/images/trophy.jpg" alt="">
-        <h1 class="mobile">Champions!</h1>
+        <h1>Champions!</h1>
+        <h2> You WON!</h2>
         <button class="play2">Play again</button>
       </div>
-     
     </div>
+
+    <!--Home and Reload-->
     <div class="wrapper">
       <div class="upper_part">
-        <div class="div flex align">
-          <a href="index4.html"><img src="./assets/images/home.png" class="hover" alt="" /></a>
-        </div>
-        <div>
-          <p >time:<span class="calculate">60</span></p>
-        </div>
-        <div class="flex align">
-          <p>flips:<span class="time">0</span></p>
-          
-          <div class="last_image">
-            <img class="reload" src="./assets/images/reload.png" alt="" />
+          <div class="div-flex-align">
+            <a id="home" href="index.html"><img src="./assets/images/home.png"></a>
           </div>
-        </div>
+          <div>
+            <p >time:<span class="calculate">90</span></p>
+          </div>
+         <div class="flex align">
+           <p>flips:<span class="time">0</span></p>
+          
+            <div class="last_image">
+              <img class="reload" src="./assets/images/reload.png" alt="" />
+            </div>
+          </div>
       </div>
-    </div>
-      <div class="memory-game">
 
+      <!--Cards-->
+
+      <div class="memory-game">
+         <div class="memory-card" data-name="first">
+            <img class="font-face" src="assets/images/Shmeichel.jpeg" alt="first"/>
+           <img src="./assets/images/main.jpeg" alt="image" class="back-face" />
+         </div>
           <div class="memory-card" data-name="first">
            <img class="font-face" src="./assets/images/Shmeichel.jpeg" alt="first"/>
+            <img src="./assets/images/main.jpeg" alt="image" class="back-face" />
+          </div>
+          <div class="memory-card" data-name="second">
+            <img class="font-face" src="assets/images/Shaw.jpeg" alt="second"/>
+            <img src="./assets/images/main.jpeg" alt="image" class="back-face" />
+         </div>
+          <div class="memory-card" data-name="second">
+            <img class="font-face" src="assets/images/Shaw.jpeg" alt="second"/>
+           <img src="./assets/images/main.jpeg" alt="image" class="back-face" />
+          </div>
+          <div class="memory-card" data-name="thirde">
+            <img class="font-face" src="assets/images/ronaldo.jpeg" alt="thirde"/>
+           <img src="./assets/images/main.jpeg" alt="image" class="back-face" />
+         </div>
+          <div class="memory-card" data-name="thirde">
+           <img class="font-face" src="assets/images/ronaldo.jpeg" alt="thirde"/>
             <img src="./assets/images/main.jpeg" alt="image" class="back-face"/>
           </div>
-
-          <div class="memory-card" data-name="first">
-            <img class="font-face" src="./assets/images/Shmeichel.jpeg" alt="first"/>
-            <img src="./assets/images/main.jpeg" alt="image" class="back-face" />
-          </div>
-          <div class="memory-card" data-name="second">
-            <img class="font-face" src="./assets/images/Vidic.jpeg" alt="second"/>
-            <img src="./assets/images/main.jpeg" alt="image" class="back-face" />
-          </div>
-          <div class="memory-card" data-name="second">
-            <img class="font-face" src="./assets/images/Vidic.jpeg" alt="second"/>
-            <img src="./assets/images/main.jpeg" alt="image" class="back-face" />
-          </div>
-          <div class="memory-card" data-name="thirde">
-            <img class="font-face" src="./assets/images/Shaw.jpeg" alt="thirde"/>
-            <img src="./assets/images/main.jpeg" alt="image" class="back-face" />
-          </div>
-          <div class="memory-card" data-name="thirde">
-            <img class="font-face" src="./assets/images/Shaw.jpeg" alt="thirde"/>
-            <img src="./assets/images/main.jpeg" alt="image" class="back-face" />
-          </div>
           <div class="memory-card" data-name="fourth">
-            <img class="font-face" src="./assets/images/bobby.jpeg" alt="fourth"/>
+           <img class="font-face" src="assets/images/Vidic.jpeg" alt="fourth"/>
             <img src="./assets/images/main.jpeg" alt="image" class="back-face" />
+         </div>
+         <div class="memory-card" data-name="fourth">
+           <img class="font-face" src="assets/images/Vidic.jpeg" alt="fourth"/>
+            <img src="./assets/images/main.jpeg" alt="image" class="back-face"/>
           </div>
-          <div class="memory-card" data-name="fourth">
-            <img class="font-face" src="./assets/images/bobby.jpeg" alt="fourth"/>
+          <div class="memory-card" data-name="sixth">
+           <img class="font-face" src="./assets/images/bobby.jpeg" alt="fifth"/>
             <img src="./assets/images/main.jpeg" alt="image" class="back-face" />
           </div>
           <div class="memory-card" data-name="sixth">
-            <img class="font-face" src="./assets/images/bruno.jpeg" alt="fifth"/>
-            <img src="./assets/images/main.jpeg" alt="image" class="back-face" />
-          </div>
-          <div class="memory-card" data-name="sixth">
-            <img class="font-face" src="./assets/images/bruno.jpeg" alt="fifth"/>
-            <img src="./assets/images/main.jpeg" alt="image" class="back-face"/>    
-          </div>
-          <div class="memory-card" data-name="seven">
-            <img class="font-face" src="./assets/images/ronaldo.jpeg" alt="sixth"/>
+            <img class="font-face" src="./assets/images/bobby.jpeg" alt="fifth"/>
             <img src="./assets/images/main.jpeg" alt="image" class="back-face" />
           </div>
           <div class="memory-card" data-name="seven">
-            <img class="font-face" src="./assets/images/ronaldo.jpeg" alt="sixth"/>
+            <img class="font-face" src="assets/images/bruno.jpeg" alt="sixth"/>
             <img src="./assets/images/main.jpeg" alt="image" class="back-face" />
+         </div>
+          <div class="memory-card" data-name="seven">
+            <img class="font-face" src="assets/images/bruno.jpeg" alt="sixth"/>
+           <img src="./assets/images/main.jpeg" alt="image" class="back-face" />
           </div>
-      </div>
-      <script src="assets/js/script.js"></script>
+ 
+    </div>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
