@@ -46,24 +46,35 @@ No errors or warnings shown for CSS.
         * Minimal activity on page and all buttons redirect to and from each page.
     * As a first time visitor, I want to be able to understand how the game is played.
         * How to play button to help user understand the game
+    ![how-to-play-](https://user-images.githubusercontent.com/79915855/130340567-6fe22ac9-937c-46a4-ad73-591c2fbc1daf.jpg)
     * As a first time visitor, I want to be able to play on different tiers, to avoid repition.
         * Kick off button directs user to a pop up to allow user to choose their own tier.
+        ![tier](https://user-images.githubusercontent.com/79915855/130340566-89e35380-31bb-4974-aa77-4da774b98e7c.jpg)
     * As a first time visitor, I want to be able to see how much time I have left.
         * Each game has its own individual timer, 45,60,90 seconds.
+        ![time](https://user-images.githubusercontent.com/79915855/130340565-e89b24b4-3483-4251-9b92-722ece97e5a7.jpg)
     * As a first time visitor, I want to be able to see how many times I have flipped the card.
         * Counter is displayed as soon as game starts.
     * As a first time visitor, I want to be able to follow social media handles to recieve updates and view other games.
         * Social Media links displayed top right of the home page.
-
+![social](https://user-images.githubusercontent.com/79915855/130340563-1d013c08-6aab-4e7b-8b73-bf29da13eef2.jpg)
 
 
 * __Developer Goals__
     * As a developer, I want the cards to be able to reshuffle on command.
         * reload button on each page so user can reshuffle at their own will
+     ![time](https://user-images.githubusercontent.com/79915855/130340565-e89b24b4-3483-4251-9b92-722ece97e5a7.jpg)
     * As a developer, I want the cards to be shuffled at the end of every game.
         * when game is completed whether a fail or successful the cards are in a different order
+    ![ranoutoftime](https://user-images.githubusercontent.com/79915855/130340618-2bc9a14e-10fc-4e7f-a53c-4f810936dd81.jpg)
     * As a developer, I want the user to see a pop up when successfully completing the game.
         * When game is successfully completed user will see a Champions pop up with a football trophy.
+![championss](https://user-images.githubusercontent.com/79915855/130340593-dfd68010-ffe3-4758-a337-a0619665abb0.jpg)
+
+
+
+
+
 
 
 ## Further Testing
