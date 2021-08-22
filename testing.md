@@ -22,3 +22,17 @@ No errors or warnings shown for HTML
 * 3. [Jigsaw W3](https://jigsaw.w3.org/css-validator/)
 No errors or warnings shown for CSS.
 ![css-validate](https://user-images.githubusercontent.com/79915855/130340360-1e15665c-3d41-47b0-8d98-914fc15ccd36.jpg)
+
+# Manual Testing
+
+## All pages
+
+* Home - When clicking on Home I am directed to the Home Page
+* When clicking reload the cards are shuffled and the timer resets
+* When finishing the game a pop up is shown with text and image showing successful completion _worked as expected_
+* When time runs out pop up is shown asking the user to replay this _worked as expected_
+* Play again button redirects user back to game _worked as expected_
+* Home page buttons redirect user to appropriate pages _worked as expected_
+* Tier level redirect user to the appropriate game with appropriate timer _worked as expected_
+* Responsiveness - I checked if all the pages and its contents were responsive using Chrome inspect. Also viewing each page using an iPhone, iPad, Macbook and other devices. 
+
