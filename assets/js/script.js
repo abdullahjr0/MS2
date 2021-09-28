@@ -14,7 +14,7 @@ let firstCard, secondCard;
 let clock = true;
 let number = 0;
 let click = 0;
-let timer = 60;
+let timer = 120;
 setInterval(() => {
   if (clock) {
     timer--;
@@ -29,8 +29,8 @@ setInterval(() => {
 
 
 function reset() {
-    timer = 60;
-    timers.innerHTML = 60;
+    timer = 120;
+    timers.innerHTML = 120;
     click = 0;
     time.textContent = click;
     cards.forEach((card) => {
